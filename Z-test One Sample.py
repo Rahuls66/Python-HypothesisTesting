@@ -1,5 +1,8 @@
 # Calculating Z value:
 
+import numpy as np
+import scipy.stats as stats
+
 x =  
 xbar = np.mean(x)
 mu = 
@@ -11,7 +14,7 @@ print("Z calculated value is: ", round(z_cal,2))
 
 
 
-# Calculating p value:
+# Calculating p value for z_cal:
 
 # FOR ONE TAILED TEST
 print(round(stats.norm.sf(abs(z_cal)),2))
