@@ -1,5 +1,4 @@
 # Calculating Z value:
-
 import numpy as np
 import scipy.stats as stats
 
@@ -15,7 +14,6 @@ print("Z calculated value is: ", round(z_cal,2))
 
 
 # Calculating p value for z_cal:
-
 # FOR ONE TAILED TEST
 print(round(stats.norm.sf(abs(z_cal)),2))
 
