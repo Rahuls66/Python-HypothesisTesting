@@ -2,7 +2,7 @@
 import numpy as np
 import scipy.stats as stats
 
-x = input()
+x = input
 xbar = np.mean(x)
 mu = input()
 sigma = np.std(x, ddof = 1)
