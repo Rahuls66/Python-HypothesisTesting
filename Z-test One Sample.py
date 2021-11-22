@@ -2,9 +2,9 @@
 import numpy as np
 import scipy.stats as stats
 
-x =  
+x =  input()
 xbar = np.mean(x)
-mu = 
+mu = input()
 sigma = np.std(x, ddof = 1)
 n = len(x)
 
